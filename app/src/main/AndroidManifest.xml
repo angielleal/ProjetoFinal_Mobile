@@ -9,16 +9,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".TaskActivity" />
+        <!-- Adiciona a tela de Login -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true"> <!-- Adicionado aqui -->
+            android:name=".LoginActivity"
+            android:exported="true">
+            <!-- Define LoginActivity como a tela inicial -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Outras telas do app -->
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".TaskActivity" />
+        <activity android:name=".MainActivity" android:exported="true" />
+
     </application>
 
 </manifest>
