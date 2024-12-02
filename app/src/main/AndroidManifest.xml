@@ -21,6 +21,7 @@
         </activity>
 
         <!-- Outras telas do app -->
+        <activity android:name=".CadastroActivity"/>
         <activity android:name=".HistoryActivity" />
         <activity android:name=".TaskActivity" />
         <activity android:name=".MainActivity" android:exported="true" />
