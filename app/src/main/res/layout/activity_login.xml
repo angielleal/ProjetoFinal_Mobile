@@ -31,6 +31,20 @@
         android:layout_height="wrap_content"
         android:hint="Senha"
         android:inputType="textPassword" />
+    <EditText
+    android:id="@+id/inputCep"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Digite seu CEP"
+    android:inputType="number"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/buttonBuscarCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar CEP" />
+
 
     <!-- Botão de Login -->
     <Button
@@ -46,4 +60,10 @@
         android:layout_height="wrap_content"
         android:text="Cadastrar" />
 
+    <TextView
+        android:id="@+id/textResultadoCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp" />
 </LinearLayout>
